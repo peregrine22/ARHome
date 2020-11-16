@@ -1,10 +1,9 @@
 package com.example.arhome;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
-
-import android.os.Bundle;
-import android.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -12,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
-    Toolbar toolbar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         drawerLayout=findViewById(R.id.drawer_layout);
         drawerLayout=findViewById(R.id.nav_view);
-        drawerLayout=findViewById(R.id.toolbar);
+
 
     }
 }

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightBlue"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp">
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_im1"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_049_sofa"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_im2"
+
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ll_im1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/ll_im1"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+
+                        android:src="@drawable/ic_011_shelf_4"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/ll_im2">
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_044_armchair"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im3"
+                    android:layout_toRightOf="@id/ll_im3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_014_table_6"/>
+                </LinearLayout>
+                "
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_im5"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_024_armchair_1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_im6"
+
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ll_im5"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/ll_im5"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+
+                        android:src="@drawable/ic_001_shelf_6"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im6"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/ll_im6">
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_034_sofa_2"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im7"
+                    android:layout_toRightOf="@id/ll_im7"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image8"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_043_table_1" />
+                </LinearLayout>
+                "
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_im9"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image9"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_007_cabinet_2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_im10"
+
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ll_im9"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/ll_im9"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image10"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+
+                        android:src="@drawable/ic_010_stand_1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im10"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/ll_im10">
+
+                    <ImageView
+                        android:id="@+id/image11"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_036_drawers_3"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im11"
+                    android:layout_toRightOf="@id/ll_im11"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image12"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_053_shelf_1" />
+                </LinearLayout>
+                "
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_im13"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image13"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_046_table"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_im14"
+
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ll_im13"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/ll_im13"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image14"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+
+                        android:src="@drawable/ic_045_stool"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im14"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/ll_im14">
+
+                    <ImageView
+                        android:id="@+id/image15"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_013_desk_3"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_im16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/ll_im15"
+                    android:layout_toRightOf="@id/ll_im15"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/image16"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_005_bookcase_1" />
+                </LinearLayout>
+                "
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
